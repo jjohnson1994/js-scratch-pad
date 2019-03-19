@@ -1,0 +1,39 @@
+{
+  "name": "js-scratch-pad",
+  "version": "1.0.0",
+  "description": "JS Scratch Pad",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjohnson1994/js-scratch-pad.git"
+  },
+  "keywords": [
+    "js",
+    "scratch-pad",
+    "sandbox",
+    "test",
+    "debug"
+  ],
+  "author": "James Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjohnson1994/js-scratch-pad/issues"
+  },
+  "homepage": "https://github.com/jjohnson1994/js-scratch-pad#readme",
+  "dependencies": {
+    "monaco-editor": "^0.16.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
